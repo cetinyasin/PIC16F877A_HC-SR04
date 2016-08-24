@@ -49,7 +49,7 @@ void main()
                          // speed of sound in air 340m/s = 34.000cm/1.000.000us = 0.034 cm/us
                          // distance = speed * time = 0.034 * time 
                          // actual distance = (0.034*time)/2 = 0.017*time (go to the target and return)
-    if(distance<5) // make some noise if distance lower than 5cm. (a kind of parking sensor)
+    if(distance<5) // make some noise if distance lower than 5cms. (a kind of parking sensor)
       output_high(PIN_C2);
     else
       output_low(PIN_C2);
